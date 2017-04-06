@@ -1,0 +1,7 @@
+/obj/
+/out/
+.gitmodules
+base/obj/
+base/out/
+remote/obj/
+remote/out/
