@@ -25,8 +25,9 @@ Sigfox Climate Station is a battery-operated indoor device integrating these sen
 * **Lux meter** (light intensity)
 * **Barometer** (atmospheric pressure)
 
-It reports measured data to Sigfox network every 30 minutes.
 This device is able to run from two AAA Alkaline batteries for at least 1 year.
+It reports measured data to Sigfox network every 30 minutes.
+You can route sensor data as HTTP POST request with JSON body to your own web app via [MySigfox](https://www.mysigfox.com) service.
 
 ## Hardware
 
