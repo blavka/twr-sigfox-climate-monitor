@@ -132,7 +132,7 @@ void application_init(void)
     bc_module_sigfox_init(&sigfox_module, BC_MODULE_SIGFOX_REVISION_R2);
     bc_module_sigfox_set_event_handler(&sigfox_module, sigfox_module_event_handler, NULL);
 
-    bc_scheduler_plan_absolute(0, 10 * 1000);
+    bc_scheduler_plan_absolute(0, SIGFOX_FIRST_REPORT_SECONDS * 1000);
 }
 
 void application_task(void *param)
@@ -188,7 +188,7 @@ void application_task(void *param)
     {
         reset = false;
 
-        bc_scheduler_plan_current_relative(SIGFOX_FIRST_REPORT_SECONDS * 1000);
+        bc_scheduler_plan_current_relative(SIGFOX_REPORT_SECONDS * 1000);
     }
     else
     {
