@@ -31,7 +31,7 @@ void climate_module_event_handler(bc_module_climate_event_t event, void *event_p
     {
         float temperature;
 
-    if (bc_module_climate_get_temperature_celsius(&temperature))
+        if (bc_module_climate_get_temperature_celsius(&temperature))
         {
             bc_data_stream_feed(&stream_thermometer, &temperature);
         }
@@ -44,7 +44,7 @@ void climate_module_event_handler(bc_module_climate_event_t event, void *event_p
     {
         float humidity;
 
-    if (bc_module_climate_get_humidity_percentage(&humidity))
+        if (bc_module_climate_get_humidity_percentage(&humidity))
         {
             bc_data_stream_feed(&stream_hygrometer, &humidity);
         }
@@ -57,7 +57,7 @@ void climate_module_event_handler(bc_module_climate_event_t event, void *event_p
     {
         float illuminance;
 
-    if (bc_module_climate_get_illuminance_lux(&illuminance))
+        if (bc_module_climate_get_illuminance_lux(&illuminance))
         {
             bc_data_stream_feed(&stream_lux_meter, &illuminance);
         }
@@ -70,7 +70,7 @@ void climate_module_event_handler(bc_module_climate_event_t event, void *event_p
     {
         float pressure;
 
-    if (bc_module_climate_get_pressure_pascal(&pressure))
+        if (bc_module_climate_get_pressure_pascal(&pressure))
         {
             bc_data_stream_feed(&stream_barometer, &pressure);
         }
