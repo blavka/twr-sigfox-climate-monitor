@@ -18,9 +18,7 @@ BC_DATA_STREAM_FLOAT_BUFFER(stream_buffer_barometer, SENSOR_DATA_STREAM_SAMPLES)
 bc_data_stream_t stream_barometer;
 
 bc_led_t led;
-
 bc_button_t button;
-
 bc_module_sigfox_t sigfox_module;
 
 void climate_module_event_handler(bc_module_climate_event_t event, void *event_param)
@@ -149,28 +147,36 @@ void application_task(void *param)
 
     if (bc_data_stream_get_average(&stream_thermometer, &average))
     {
-        header |= 0x01; temperature = average * 2;
+        header |= 0x01;
+
+        temperature = average * 2;
     }
 
     uint8_t humidity = 0;
 
     if (bc_data_stream_get_average(&stream_hygrometer, &average))
     {
-        header |= 0x02; humidity = average * 2;
+        header |= 0x02;
+
+        humidity = average * 2;
     }
 
     uint16_t illuminance = 0;
 
     if (bc_data_stream_get_average(&stream_lux_meter, &average))
     {
-        header |= 0x04; illuminance = average / 2;
+        header |= 0x04;
+
+        illuminance = average / 2;
     }
 
     uint16_t pressure = 0;
 
     if (bc_data_stream_get_average(&stream_barometer, &average))
     {
-        header |= 0x08; pressure = average / 2;
+        header |= 0x08;
+
+        pressure = average / 2;
     }
 
     uint8_t buffer[8];
