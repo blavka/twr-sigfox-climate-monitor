@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/github/license/bigclownlabs/bcp-sigfox-climate-station.svg)](https://github.com/bigclownlabs/bcp-sigfox-climate-station/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/follow/BigClownLabs.svg?style=social&label=Follow)](https://twitter.com/BigClownLabs)
 
-![sigfox-co2-station-box](images/sf-co2-box.png)
+![sigfox-climate-station](images/sf-clima.png)
 
 This repository contains firmware for Sigfox environmental sensor.
 Firmware is programmed into [Core Module](https://shop.bigclown.com/products/core-module).
@@ -39,8 +39,6 @@ The following hardware components are used for this project:
 * **[Sigfox Module](https://shop.bigclown.com/products/sigfox-module)**
 * **[Core Module](https://shop.bigclown.com/products/core-module)**
 * **[Mini Battery Module](https://shop.bigclown.com/products/minibattery-module)**
-
-![sigfox-co2-station](images/sf-co2.png)
 
 ## License
 
