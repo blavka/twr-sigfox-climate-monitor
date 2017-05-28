@@ -111,10 +111,10 @@ void button_event_handler(bc_button_t *self, bc_button_event_t event, void *even
 
 void application_init(void)
 {
-    bc_data_stream_init(&stream_thermometer, BC_DATA_STREAM_TYPE_FLOAT, stream_buffer_thermometer, sizeof(stream_buffer_thermometer));
-    bc_data_stream_init(&stream_hygrometer, BC_DATA_STREAM_TYPE_FLOAT, stream_buffer_hygrometer, sizeof(stream_buffer_hygrometer));
-    bc_data_stream_init(&stream_lux_meter, BC_DATA_STREAM_TYPE_FLOAT, stream_buffer_lux_meter, sizeof(stream_buffer_lux_meter));
-    bc_data_stream_init(&stream_barometer, BC_DATA_STREAM_TYPE_FLOAT, stream_buffer_barometer, sizeof(stream_buffer_barometer));
+    bc_data_stream_init(&stream_thermometer, SENSOR_DATA_STREAM_SAMPLES, &stream_buffer_thermometer);
+    bc_data_stream_init(&stream_hygrometer, SENSOR_DATA_STREAM_SAMPLES, &stream_buffer_hygrometer);
+    bc_data_stream_init(&stream_lux_meter, SENSOR_DATA_STREAM_SAMPLES, &stream_buffer_lux_meter);
+    bc_data_stream_init(&stream_barometer, SENSOR_DATA_STREAM_SAMPLES, &stream_buffer_barometer);
 
     bc_led_init(&led, BC_GPIO_LED, false, false);
     bc_led_set_mode(&led, BC_LED_MODE_FLASH);
