@@ -1,13 +1,13 @@
 <a href="https://www.bigclown.com"><img src="https://s3.eu-central-1.amazonaws.com/bigclown/gh-readme-logo.png" alt="BigClown Logo" align="right"></a>
 
-# Project Sigfox Climate Station
+# Project Sigfox Climate Monitor
 
 [![Travis](https://img.shields.io/travis/bigclownlabs/bcp-sigfox-climate-station/master.svg)](https://travis-ci.org/bigclownlabs/bcp-sigfox-climate-station)
 [![Release](https://img.shields.io/github/release/bigclownlabs/bcp-sigfox-climate-station.svg)](https://github.com/bigclownlabs/bcp-sigfox-climate-station/releases)
 [![License](https://img.shields.io/github/license/bigclownlabs/bcp-sigfox-climate-station.svg)](https://github.com/bigclownlabs/bcp-sigfox-climate-station/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/follow/BigClownLabs.svg?style=social&label=Follow)](https://twitter.com/BigClownLabs)
 
-![sigfox-climate-station](images/sf-clima.png)
+![Image of Sigfox Climate Monitor assembly](doc/sigfox-climate-monitor.png)
 
 This repository contains firmware for Sigfox environmental sensor.
 Firmware is programmed into [Core Module](https://shop.bigclown.com/products/core-module).
@@ -16,7 +16,6 @@ Binary version is available in section [Releases](https://github.com/bigclownlab
 > Detailed information about this project can be found in [BigClown Documentation](https://doc.bigclown.com).
 
 **TODO** Link to documentation article
-**TODO** Photo of the assembly
 
 ## Introduction
 
@@ -38,7 +37,7 @@ The following hardware components are used for this project:
 * **[Climate Module](https://shop.bigclown.com/products/climate-module)**
 * **[Sigfox Module](https://shop.bigclown.com/products/sigfox-module)**
 * **[Core Module](https://shop.bigclown.com/products/core-module)**
-* **[Mini Battery Module](https://shop.bigclown.com/products/minibattery-module)**
+* **[Mini Battery Module](https://shop.bigclown.com/products/mini-battery-module)**
 
 ## License
 
@@ -46,4 +45,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ---
 
-Made with ❤ by [BigClown Labs s.r.o.](https://www.bigclown.com) in Czech Republic.
+Made with ❤  by [BigClown Labs s.r.o.](https://www.bigclown.com) in Czech Republic.
