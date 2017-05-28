@@ -7,9 +7,9 @@
 [![License](https://img.shields.io/github/license/bigclownlabs/bcp-sigfox-climate-station.svg)](https://github.com/bigclownlabs/bcp-sigfox-climate-station/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/follow/BigClownLabs.svg?style=social&label=Follow)](https://twitter.com/BigClownLabs)
 
-![Image of Sigfox Climate Monitor assembly](doc/sigfox-climate-monitor.png)
+![Photo of Sigfox Climate Monitor assembly](doc/sigfox-climate-monitor.png)
 
-This repository contains firmware for Sigfox environmental sensor.
+This repository contains firmware for Sigfox environmental sensor based on Climate Module.
 Firmware is programmed into [Core Module](https://shop.bigclown.com/products/core-module).
 Binary version is available in section [Releases](https://github.com/bigclownlabs/bcp-sigfox-climate-station/releases).
 
@@ -45,4 +45,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ---
 
-Made with ❤  by [BigClown Labs s.r.o.](https://www.bigclown.com) in Czech Republic.
+Made with ❤ by [BigClown Labs s.r.o.](https://www.bigclown.com) in Czech Republic.
