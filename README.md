@@ -2,16 +2,16 @@
 
 # Project Sigfox Climate Monitor
 
-[![Travis](https://img.shields.io/travis/bigclownlabs/bcp-sigfox-climate-station/master.svg)](https://travis-ci.org/bigclownlabs/bcp-sigfox-climate-station)
-[![Release](https://img.shields.io/github/release/bigclownlabs/bcp-sigfox-climate-station.svg)](https://github.com/bigclownlabs/bcp-sigfox-climate-station/releases)
-[![License](https://img.shields.io/github/license/bigclownlabs/bcp-sigfox-climate-station.svg)](https://github.com/bigclownlabs/bcp-sigfox-climate-station/blob/master/LICENSE)
+[![Travis](https://img.shields.io/travis/bigclownlabs/bcp-sigfox-climate-monitor/master.svg)](https://travis-ci.org/bigclownlabs/bcp-sigfox-climate-monitor)
+[![Release](https://img.shields.io/github/release/bigclownlabs/bcp-sigfox-climate-monitor.svg)](https://github.com/bigclownlabs/bcp-sigfox-climate-monitor/releases)
+[![License](https://img.shields.io/github/license/bigclownlabs/bcp-sigfox-climate-monitor.svg)](https://github.com/bigclownlabs/bcp-sigfox-climate-monitor/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/follow/BigClownLabs.svg?style=social&label=Follow)](https://twitter.com/BigClownLabs)
 
 ![Photo of Sigfox Climate Monitor assembly](doc/sigfox-climate-monitor.png)
 
 This repository contains firmware for Sigfox environmental sensor based on Climate Module.
 Firmware is programmed into [Core Module](https://shop.bigclown.com/products/core-module).
-Binary version is available in section [Releases](https://github.com/bigclownlabs/bcp-sigfox-climate-station/releases).
+Binary version is available in section [Releases](https://github.com/bigclownlabs/bcp-sigfox-climate-monitor/releases).
 
 > Detailed information about this project can be found in [BigClown Documentation](https://doc.bigclown.com).
 
