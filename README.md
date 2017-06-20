@@ -1,6 +1,6 @@
 <a href="https://www.bigclown.com"><img src="https://s3.eu-central-1.amazonaws.com/bigclown/gh-readme-logo.png" alt="BigClown Logo" align="right"></a>
 
-# Project Sigfox Climate Monitor
+# Firmware for BigClown Sigfox Climate Monitor
 
 [![Travis](https://img.shields.io/travis/bigclownlabs/bcp-sigfox-climate-monitor/master.svg)](https://travis-ci.org/bigclownlabs/bcp-sigfox-climate-monitor)
 [![Release](https://img.shields.io/github/release/bigclownlabs/bcp-sigfox-climate-monitor.svg)](https://github.com/bigclownlabs/bcp-sigfox-climate-monitor/releases)
@@ -45,4 +45,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ---
 
-Made with ❤ by [BigClown Labs s.r.o.](https://www.bigclown.com) in Czech Republic.
+Made with &#x2764;&nbsp; by [BigClown Labs s.r.o.](https://www.bigclown.com) in Czech Republic.
