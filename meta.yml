@@ -1,5 +1,5 @@
 assembly:
   - name: BigClown Climate Module
-  - name: BigClown Lora Module
+  - name: BigClown Sigfox Module
   - name: BigClown Core Module
   - name: BigClown Mini Battery Module
