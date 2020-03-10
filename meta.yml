@@ -1,5 +1,5 @@
 assembly:
-  - name: BigClown Climate Module
-  - name: BigClown Sigfox Module
-  - name: BigClown Core Module
-  - name: BigClown Mini Battery Module
+  - name: HARDWARIO Climate Module
+  - name: HARDWARIO Sigfox Module
+  - name: HARDWARIO Core Module
+  - name: HARDWARIO Mini Battery Module
