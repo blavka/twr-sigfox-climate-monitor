@@ -3,19 +3,17 @@ language: c
 addons:
   apt:
     sources:
-    - sourceline: 'ppa:team-gcc-arm-embedded/ppa'
+      - sourceline: ppa:team-gcc-arm-embedded/ppa
     packages:
-    - gcc-arm-embedded=6-2017q1-1*
+      - gcc-arm-embedded
 script:
-  - make
+  - make release OUT=bcf-sigfox-climate-monitor-${TRAVIS_TAG} VERSION=${TRAVIS_TAG}
 deploy:
   skip_cleanup: true
   file_glob: true
-  file: "out/debug/*.bin"
-  api_key: "${GITHUB_KEY}"
+  file: out/release/*.bin
+  api_key: ${GITHUB_KEY}
   provider: releases
   overwrite: true
   on:
     tags: true
-notifications:
-  email: false
