@@ -2,7 +2,7 @@
 
 # Firmware for HARDWARIO Sigfox Climate Monitor
 
-[![Travis](https://img.shields.io/travis/bigclownlabs/bcp-sigfox-climate-monitor/master.svg)](https://travis-ci.org/bigclownlabs/bcp-sigfox-climate-monitor)
+[![build](https://github.com/hardwario/twr-sigfox-climate-monitor/actions/workflows/main.yml/badge.svg)](https://github.com/hardwario/twr-sigfox-climate-monitor/actions/workflows/main.yml)
 [![Release](https://img.shields.io/github/release/bigclownlabs/bcp-sigfox-climate-monitor.svg)](https://github.com/bigclownlabs/bcp-sigfox-climate-monitor/releases)
 [![License](https://img.shields.io/github/license/bigclownlabs/bcp-sigfox-climate-monitor.svg)](https://github.com/bigclownlabs/bcp-sigfox-climate-monitor/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/follow/hardwario_en.svg?style=social&label=Follow)](https://twitter.com/hardwario_en)
